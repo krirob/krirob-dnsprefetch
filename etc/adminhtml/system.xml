@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="krirob_performance" translate="label" type="text" sortOrder="950" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Performance</label>
+            <tab>general</tab>
+            <resource>Krirob_Dnsprefetch::config</resource>
+            <group id="krirob_dnsprefetch" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>DNS PreFetch</label>
+                <field id="all_pages" translate="label comment" type="textarea" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>All Pages</label>
+                    <comment>One URL per line</comment>
+                </field>
+                <field id="checkout_page" translate="label comment" type="textarea" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Checkout Page</label>
+                    <comment>One URL per line</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

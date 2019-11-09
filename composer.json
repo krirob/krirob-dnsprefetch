@@ -1,0 +1,14 @@
+{
+  "name": "krirob/dnsprefetch",
+  "autoload": {
+    "psr-4": {"Krirob\\Dnsprefetch\\":""},
+    "files": ["registration.php"]
+  },
+  "description": "Module to add dnsprefetch to header",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ]
+}

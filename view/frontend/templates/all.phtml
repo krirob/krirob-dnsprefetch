@@ -1,0 +1,7 @@
+<?php /** @var $block Krirob\Dnsprefetch\Block\Dnsprefetch */?>
+<?php $urls = $block->getAllPages();?>
+<?php foreach ($urls as $url): ?>
+    <link rel="dns-prefetch" href="<?= $block->escapeUrl(trim($url)); ?>">
+<?php endforeach;?>
+
+

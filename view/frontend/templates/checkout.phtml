@@ -1,0 +1,5 @@
+<?php /** @var $block Krirob\Dnsprefetch\Block\Dnsprefetch */?>
+<?php $urls = $block->getCheckoutPage();?>
+<?php foreach ($urls as $url): ?>
+    <link rel="dns-prefetch" href="<?= $block->escapeUrl(trim($url)); ?>">
+<?php endforeach;?>
